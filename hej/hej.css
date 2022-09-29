@@ -1,0 +1,47 @@
+body {
+    background-color: darksalmon;
+    margin: 0px;
+}
+
+#container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#content h1 {
+
+    background-color: lightgreen;
+    color: darkgreen;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom:10px;
+    margin-bottom: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#content ol {
+    list-style-type:upper-roman;
+    margin-top: 0px;
+    background-color: whitesmoke;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#content li {
+    padding: 5px;
+
+}
+
+.image {
+    width: 500px;
+    height: 250px;
+    background-image: url("plant.jpg");
+    
+    background-size: cover;
+    border-radius: 20px 100px 20px 100px;
+}

@@ -1,0 +1,26 @@
+body {
+    background-color: red;
+}
+
+#navigation {
+    display: flexbox;
+    height: 150px;
+    justify-content: center;
+}
+
+.item {
+
+}
+
+#hendrix {
+    background-image: url("images/hendrix.jpg");
+    flex-basis: 35%;
+}
+
+#joplin {
+
+}
+
+#simone {
+
+}

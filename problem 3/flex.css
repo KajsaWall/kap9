@@ -1,0 +1,66 @@
+body {
+    margin: 0px;
+    background-color: gainsboro;
+}
+
+#wrapper {
+    margin: 40px;
+    background-color: orange;
+    border: 5px solid black;
+}
+
+/* The containers. */
+
+.row {
+    display: flex;
+    margin: 20px;
+    height: 25vh;
+    background-color: gray;
+}
+
+.first {
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.second {
+    flex-direction: column;
+}
+
+.third {
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* The items. */
+
+.item {
+    height: 150px;
+    flex-basis: 60px;
+    background-color: brown;
+    margin: 10px;
+}
+
+.blue {
+    width: 300px;
+    flex-grow: 1;
+    background-color: blue;
+}
+
+.purple {
+    flex-grow: 1;
+    height: 70px;
+    background-color: blueviolet;
+}
+
+.green {
+    flex-grow: 1;
+    height: 220px;
+    background-color: forestgreen;
+}
+
+.yellow {
+    flex-grow: 2;
+    height: 120px;
+    background-color: yellow;
+}

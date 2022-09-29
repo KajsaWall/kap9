@@ -1,0 +1,49 @@
+body {
+    margin: 40px 60px;
+    font-family: Georgia;
+    font-size: 50px;
+}
+
+#navigation {
+    height: 400px;
+    display: flex;
+    background: skyblue;
+}
+
+.item {
+flex-grow: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+background-size: cover;
+text-decoration: none;
+border: 1px solid black;
+}
+
+.item,
+.item:visited {
+
+    color:white;
+    text-shadow: 0 2px 4px black;
+}
+
+.item:hover {
+    color:skyblue;
+}
+
+#hendrix, #joplin, #simone {
+    background-position: top;
+}
+
+#hendrix {
+    background-image: url("images/hendrix.jpg");
+
+}
+
+#joplin {
+    background-image: url("images/joplin.png");
+}
+
+#simone {
+    background-image: url("images/simone.jpg");
+}

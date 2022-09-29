@@ -1,0 +1,23 @@
+body {
+background-color: darksalmon;
+}
+
+#container {
+    display: flex;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+#content {
+
+}
+
+.image {
+
+    width: 500px;
+    height: 250px;
+    background-image: url("images/plant.jpg");
+    border-radius: 10% 30% 10% 30%;
+
+}
