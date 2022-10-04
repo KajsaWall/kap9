@@ -1,0 +1,52 @@
+body {    
+    margin: 0;
+    height: 100vh;
+    background-color: lightyellow;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    height: 500px;
+    width: 500px;
+    background-color: lightgrey;
+    border-radius: 20px;
+    
+}
+
+.item {
+    border-radius: 20px;
+}
+
+.red {
+    display: grid;
+    background-color: red;
+    grid-row: 1;
+    grid-column: 1 / 3;
+}
+
+.yellow {
+    display: grid;
+    background-color: yellow;
+    grid-row: 2 / 4;
+    grid-column: 1 / 3;
+}
+
+.green { 
+    display: grid;
+    background-color: green;
+    grid-row: 1 / 5;
+    grid-column: 3 / 5;
+}
+
+.blue {
+    display: grid;
+    background-color: lightblue;
+    grid-row: 4;
+    grid-column: 1 / 5;
+}
