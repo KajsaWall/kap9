@@ -16,11 +16,19 @@ main {
     width: 500px;
     background-color: lightgrey;
     border-radius: 20px;
+    padding: 5px;
+    box-sizing: border-box;
     
 }
 
 .item {
     border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    margin: 5px;
 }
 
 .red {
@@ -40,7 +48,7 @@ main {
 .green { 
     display: grid;
     background-color: green;
-    grid-row: 1 / 5;
+    grid-row: 1 / 4;
     grid-column: 3 / 5;
 }
 
@@ -49,4 +57,28 @@ main {
     background-color: lightblue;
     grid-row: 4;
     grid-column: 1 / 5;
+}
+
+.red:active {
+    grid-row: 1 / 5;
+    grid-column: 1 / 5;
+    z-index: 1;
+}
+
+.yellow:active {
+    grid-row: 1 / 5;
+    grid-column: 1 / 5;
+    z-index: 1;
+}
+
+.green:active {
+    grid-row: 1 / 5;
+    grid-column: 1 / 5;
+    z-index: 1;
+}
+
+.blue:active {
+    grid-row: 1 / 5;
+    grid-column: 1 / 5;
+    z-index: 1;
 }

@@ -1,0 +1,77 @@
+
+body {
+    background-color: lightyellow;
+    height: 100vh;
+    margin:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    height: 50vh;
+    width: 50vw;
+    background-color: lightblue;
+    display: grid;
+    grid-template-columns: repeat(2, 25vw);
+    grid-template-rows: repeat(2, 25vh);
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle section {
+    background-color: beige;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 12.5vw);
+    grid-template-rows: repeat(2, 12.5vh);
+}
+
+#red, #blue, #yellow, #green {
+    width: 12.5vw;
+    height: 12.5vh;
+}
+
+#red {
+    background-color: red;
+}
+#blue {
+    background-color: blue;
+}
+#yellow {
+    background-color: yellow;
+}
+#green {
+    background-color: green;
+}
+
+.tomato {
+    background-image: url("images/tomato.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    text-align: center;
+    box-sizing: border-box;    
+
+}
+
+p {
+    text-align: justify;    
+    padding: 20px;
+
+}
+
