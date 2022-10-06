@@ -1,0 +1,40 @@
+body {
+    
+    margin:0;
+}
+
+main {
+    height: 100vh;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+section {
+    height: 100%;
+    display: flex;
+}
+
+#circle {
+    background-color: #f9423a;
+    justify-content: center;
+    align-items: center;
+}
+
+#circle div {
+    background-color: #f6f3ea;
+    height: 40vw;
+    width: 40vw;
+    border-radius: 50%;
+}
+
+#two {
+    background-color: rgba(12, 12, 10, 0.8);
+}
+
+#three {
+    background-color: #f9423a;
+
+}
+
+#four {
+    background-color: #f6f3ea;
+}

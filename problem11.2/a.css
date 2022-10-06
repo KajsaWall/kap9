@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: Georgia;
+    background-color: rgba(216, 223, 225, 0.8);
+}
+
+main {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#grace {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#presentation {
+    color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#presentation h1 {
+    /* Om vi anger typsnittsstorlek i "vw" så kommer den anpassa sig efter webbläsarfönstret */
+    font-size: 5vw;
+    color: #376893;
+    margin: 0;
+}
+
+#presentation h3 {
+    font-size: 1.8vw;
+    font-weight: normal;
+    margin-bottom: 100px;
+}
+
+#presentation h6 {
+    font-size: 1.3vw;
+    font-weight: normal;
+    font-style: italic;
+    margin: 8px 0;
+}

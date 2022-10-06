@@ -1,0 +1,43 @@
+body {
+    margin: 5vh;
+    height: 90vh;
+    background-color: #999;
+    font-family: Helvetica;
+}
+
+main {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 2fr auto auto 1fr;
+}
+
+#houses {
+    grid-column: 1 / span 2;
+    grid-row: 1/ span 4;
+}
+
+#houses img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+h1 {
+    grid-column: 2 / span 2;
+    grid-row: 2 / span 1;
+    background-color: black;
+    color:white;
+    font-size: 42px;
+    margin: 0%;
+    padding:20px;
+}
+
+p {
+    grid-column: 2 / span 2;
+    grid-row: 3 / span 1;
+    background-color: white;
+    margin: 0;
+    
+}
