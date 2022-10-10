@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(245, 245, 220);
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+   
+main {
+    max-width: 600px;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#absolute-square {
+    position: absolute;
+    left: 90vw;
+    top: 80px;
+
+    height: 30px;
+    width: 30px;
+    background-color:#2c5375;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+}
+
+h1 {
+    position: fixed;
+}
