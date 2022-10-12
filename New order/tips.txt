@@ -1,0 +1,6 @@
+Tips:
+
+- Ange typsnittsstorlekarna i med enheten "vw"
+- Skissa upp ett rutnät på papper eller dylikt innan ni börjar koda
+    - Rutnätet är endast skapat med enheten "fr"
+- Färger: #CDEEF4, #2D3691

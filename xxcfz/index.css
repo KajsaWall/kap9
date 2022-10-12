@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    background-color: beige;
+    font-family: Georgia;
+    font-size: 18px;
+    text-align: center;
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    max-width: 75vw;
+    background-color: #ddd;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#paintings {
+    display: flex;
+    gap: 10px;
+}
+
+.painting {
+    flex-grow: 1;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+@media (max-width: 480px) {
+    body {
+        /* Eftersom vi hade 100vh tidigare vill vi nu låta höjden styras av innehållet */
+        height: auto;
+    }
+
+    main {
+        /* Nu vill vi att vår ruta ska ta upp all yta (går att göra på flera vis) */
+        max-width: 100%;
+        border-radius: 0;
+    }
+
+    #paintings {
+        flex-direction: column;
+    } 
+
+    /* Vi ändrar också ordningen på tavlorna */
+    #paintings .first {
+        order: 2;
+    }
+
+    #paintings .second {
+        order: 1;
+    }
+}
