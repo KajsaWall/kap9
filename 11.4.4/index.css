@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+nav {
+    display: flex;
+    height: 60px;
+    gap: 10px;
+}
+
+.painting {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+
+a {
+    text-shadow: 1px 1px 2px black;    
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: yellow;
+}
+
+.las-meninas {
+    background-image: url("images/las_meninas.jpg");
+}
+
+.mona-lisa {
+    background-image: url("images/mona_lisa.jpg");
+}
+
+.the-kiss {
+    background-image: url("images/the_kiss.jpg");
+}
+
+.parnassus {
+    background-image: url("images/parnassus.jpg");
+    margin-right: 0;
+}
+
+main {
+    background-color: lightyellow;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    display: none;
+}
+
+#attention {
+    font-weight: bold;
+    color: red;
+}
+
+section {
+    background-color: lightgrey;
+    padding: 20px;
+    margin: 0;
+    border: solid 1px black;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+.painter {
+    display: none;
+}
+
+@media (max-width: 500px) {
+
+    nav {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .painting {
+        margin-right: 0;
+        gap: 5px;
+        padding: 10px;
+    }
+
+    .painter {
+        display: inline;
+    }
+
+    main {
+        display: block;
+    }
+
+}

@@ -1,23 +1,32 @@
 body {
-    background-color: lightyellow;
     margin: 0;
+    height: 100vh;
+    background-color: beige;
+
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
     text-align: center;
 
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
 }
 
 main {
-    
-    width: 75vw;
     background-color: lightgrey;
+    height: auto;
+    width: 75vw;
+    border-radius: 5px;
+    padding: 20px;
 }
 
 .paintings {
+    display: flex;
+    gap: 10px;
+}
+
+#Unknown, #Parnassus {
     flex-grow: 1;
     text-align: center;
 }
@@ -28,26 +37,23 @@ img {
 
 @media (max-width: 480px) {
     body {
-        /* Eftersom vi hade 100vh tidigare vill vi nu låta höjden styras av innehållet */
         height: auto;
-    }
+        background-color: lightgrey;       
 
+    }
     main {
-        /* Nu vill vi att vår ruta ska ta upp all yta (går att göra på flera vis) */
         max-width: 100%;
-        border-radius: 0;
-    }
+        border-radius: 0;        
 
-    #paintings {
+    }
+    .paintings {
         flex-direction: column;
-    } 
-
-    /* Vi ändrar också ordningen på tavlorna */
-    #paintings #Unknown {
-        order: 2;
     }
-
-    #paintings .Parnassus {
+    #Parnassus {
         order: 1;
     }
+    #Unknown {
+        order: 2;
+    }
+    
 }

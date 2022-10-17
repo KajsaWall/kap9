@@ -24,6 +24,10 @@ div {
     
 }
 
+p {
+    display: flex;
+    width: 464px;
+}
 
 .ups {
     background-color: darkblue;
@@ -41,7 +45,6 @@ div .ups {
     grid-column: 1;
     flex-direction: column;
     margin-bottom: 2px;
-    height: 160px;
 }
 
 .up2 {
@@ -57,6 +60,7 @@ div .ups {
     grid-column: 1;
     flex-direction:column-reverse;
     margin-top: 2px;
+    height: 10vh;
 
 }
 
