@@ -1,0 +1,59 @@
+body {
+  background-color: black;
+  height: 100vh;
+  font-size: 1.7vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 0;
+
+  --space: 10px;
+}
+
+body > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 150px 150px;
+  gap: calc(1.5 * var(--space));
+
+}
+
+body > div > div {
+  
+  background-position: center;
+  background-size:cover;
+  border: 1px solid grey;
+  border-radius: 30px;
+  padding: calc(3 * var(--space));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+body > div > div > div{
+  color:transparent;
+  padding: calc(1.5 * var(--space));
+  background-color: transparent;
+  border-radius: calc(2 * var(--space));
+
+  transition-property: color, background-color;
+  transition-duration: 0.5s;
+
+} 
+
+body > div > div:first-child { background-image: url("images/john_bauer.jpg");}
+body > div > div:nth-child(2) {background-image: url("images/elsa_beskow.jpeg");}
+body > div > div:nth-child(3) {background-image: url("images/kay_nielsen.jpg");}
+body > div > div:nth-child(4) {background-image: url("images/carl_larsson.jpg");}
+
+body > div > div:hover {
+  border: 1px solid white;
+}
+
+body > div > div:hover div{
+  background-color: rgba(240, 248, 255, 0.8);
+  color:black;
+}
+

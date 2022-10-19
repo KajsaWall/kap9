@@ -1,0 +1,52 @@
+body {
+    height: 100vh;
+    margin: 0;
+    font-size: 30px;
+}
+
+body > div {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 150px 1fr 150px 1fr;
+    grid-template-rows: 1fr 150px 1fr;
+    padding: 200px;
+    box-sizing: border-box;
+}
+
+body > div  div {
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body > div > div:nth-child(2) {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+body > div > div:nth-child(3) {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+body > div > div:nth-child(4) {
+    grid-column: 5;
+    grid-row: 1;
+}
+
+body > div > div:first-child {
+    grid-column: 1 / 6;
+    grid-row: 3;
+}
+
+body > div > div span {
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 1s;
+}
+
+body > div > div:first-child:hover ~ div span {
+    opacity: 1;
+}

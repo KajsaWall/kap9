@@ -1,0 +1,138 @@
+body {
+    --border: 5px solid black;
+    font-size: 25px;
+    margin: 15px;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 250px 250px;
+    gap: 15px;
+
+}
+
+section > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+section > div:first-child {
+    background-color: lightblue;
+    border: var(--border);
+    align-items: center;
+    text-align: center;
+}
+section > div:first-child > div:first-child  {
+    border: 5px solid black;
+    margin:15px;
+    padding:15px;
+}
+section > div:first-child > div:nth-child(2) {
+    border: 5px solid black;
+    margin:15px;
+    padding:15px;
+    border-radius: 30px;
+}
+section > div:first-child > div:nth-child(3) {
+    border: 5px solid black;
+    margin:15px;
+    padding:15px;
+}
+section > div:first-child > div:nth-child(4) {
+    border: 5px solid black;
+    margin:15px;
+    padding:15px;
+    background-color: white;
+}
+
+
+section > div:nth-child(2) {
+    background-color: lightgreen;
+    border: var(--border);
+    align-items: center;
+    text-align: center;
+}
+section > div:nth-child(2) > div:first-child  {
+    border: 5px solid black;
+    margin:15px;
+    padding:15px;
+}
+section > div:nth-child(2) > div:nth-child(2) {
+    border: 5px solid black;
+    margin:15px;
+    padding:15px;
+    border-radius: 30px;
+}
+section > div:nth-child(2) > div:nth-child(3) {
+    border: 5px solid black;
+    margin:15px;
+    padding:15px;
+}
+section > div:nth-child(2) > div:nth-child(4) {
+    border: 5px solid black;
+    margin:15px;
+    padding:15px;
+    background-color: white;
+}
+
+
+section > div:nth-child(3) {
+    background-color: lightsalmon;
+    border: var(--border);
+    align-items: center;
+    text-align: center;
+}
+section > div:nth-child(3) > div:first-child  {
+    border: 5px solid black;
+    margin:15px;
+    padding:15px;
+}
+section > div:nth-child(3) > div:nth-child(2) {
+    border: 5px solid black;
+    margin:15px;
+    padding:15px;
+    border-radius: 30px;
+}
+section > div:nth-child(3) > div:nth-child(3) {
+    border: 5px solid black;
+    margin:15px;
+    padding:15px;
+}
+section > div:nth-child(3) > div:nth-child(4) {
+    border: 5px solid black;
+    margin:15px;
+    padding:15px;
+    background-color: white;
+}
+
+
+section > div:nth-child(4) {
+    background-color: lightyellow;
+    border: var(--border);
+    align-items: center;
+    text-align: center;
+}
+section > div:nth-child(4) > div:first-child  {
+    border: 5px solid black;
+    margin:15px;
+    padding:15px;
+}
+section > div:nth-child(4) > div:nth-child(2) {
+    border: 5px solid black;
+    margin:15px;
+    padding:15px;
+    border-radius: 30px;
+}
+section > div:nth-child(4) > div:nth-child(3) {
+    border: 5px solid black;
+    margin:15px;
+    padding:15px;
+}
+section > div:nth-child(4) > div:nth-child(4) {
+    border: 5px solid black;
+    margin:15px;
+    padding:15px;
+    background-color: white;
+}

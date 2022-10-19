@@ -44,19 +44,21 @@ nav {
     border-right: none;
 }
 
+#background {
+    width: 100vw;
+    height: 500px;
+    background-image: url("images/hero.png");
+    background-position: center;    
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
 
 header {
-    height: 500px;
     justify-content: center;
     align-items: center;
     display: flex; 
     flex-direction: column;
     position: relative;
-    
-    background-image: url("images/hero.png");
-    background-position: center;    
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 header > h1 {
